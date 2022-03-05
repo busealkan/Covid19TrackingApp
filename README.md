@@ -1,6 +1,6 @@
 ## Covid19TrackingApp
 <p align="center"><img height="300" width="250" src="https://raw.githubusercontent.com/busealkan/Covid19TrackingApp/main/screens/logo.jpg"/></p>
-<p align="center">In this project, there are statistical data about the COVID-19 disease of the countries.</p>
+<p align="center">This project is about the COVID-19 statistical data of the countries.</p>
 
 ## Outputs
 <p>
