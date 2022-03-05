@@ -4,10 +4,10 @@ Bu projede ülkelerin COVID-19 hastalığı ile ilgili istatiksel veriler bulunm
 
 ## Outputs
 <p>
-  <img height="400" width="200" src="https://raw.githubusercontent.com/busealkan/Covid19TrackingApp/main/screens/1.png" alt="SS1"/>
-  <img height="400" width="200" src="https://raw.githubusercontent.com/busealkan/Covid19TrackingApp/main/screens/3.png" alt="SS1"/>
-  <img height="400" width="200" src="https://raw.githubusercontent.com/busealkan/Covid19TrackingApp/main/screens/5.png" alt="SS1"/>
-  <img height="400" width="200" src="https://raw.githubusercontent.com/busealkan/Covid19TrackingApp/main/screens/6.png" alt="SS1"/>
+  <img height="400" width="220" src="https://raw.githubusercontent.com/busealkan/Covid19TrackingApp/main/screens/1.png" alt="SS1"/>
+  <img height="400" width="220" src="https://raw.githubusercontent.com/busealkan/Covid19TrackingApp/main/screens/3.png" alt="SS1"/>
+  <img height="400" width="220" src="https://raw.githubusercontent.com/busealkan/Covid19TrackingApp/main/screens/5.png" alt="SS1"/>
+  <img height="400" width="220" src="https://raw.githubusercontent.com/busealkan/Covid19TrackingApp/main/screens/6.png" alt="SS1"/>
 
 </p>
 
