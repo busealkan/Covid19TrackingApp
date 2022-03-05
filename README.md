@@ -4,8 +4,11 @@ Bu projede ülkelerin COVID-19 hastalığı ile ilgili istatiksel veriler bulunm
 
 ## Outputs
 <p>
-  <img height="400" width="250" src="https://raw.githubusercontent.com/busealkan/ZenPirlantaApp/master/screens/zenpirlanta.gif" alt="SS1"/>
- 
+  <img height="400" width="250" src="https://raw.githubusercontent.com/busealkan/Covid19TrackingApp/main/screens/1.png" alt="SS1"/>
+  <img height="400" width="250" src="https://raw.githubusercontent.com/busealkan/Covid19TrackingApp/main/screens/3.png" alt="SS1"/>
+  <img height="400" width="250" src="https://raw.githubusercontent.com/busealkan/Covid19TrackingApp/main/screens/5.png" alt="SS1"/>
+  <img height="400" width="250" src="https://raw.githubusercontent.com/busealkan/Covid19TrackingApp/main/screens/6.png" alt="SS1"/>
+
 </p>
 
 ## Architecture
