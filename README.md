@@ -15,11 +15,9 @@ Bu projede ülkelerin COVID-19 hastalığı ile ilgili istatiksel veriler bulunm
 </p>
 
 
-
-
 ## Clean Simple Architecture
 <p><img align="left" width="244px"; src="https://raw.githubusercontent.com/busealkan/Covid19TrackingApp/main/screens/mvvm.png"/></p>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>               
+              
 
 ## Libraries and Tools 
 <li>Dagger Hilt</li>
@@ -29,7 +27,6 @@ Bu projede ülkelerin COVID-19 hastalığı ile ilgili istatiksel veriler bulunm
 <li><a href="https://developer.android.com/topic/libraries/data-binding">Data Binding</a></li>
 <li><a href="https://square.github.io/retrofit/">Retrofit</a></li>
 <li><a href="https://square.github.io/okhttp/">OkHttp</a></li>
-
 
 
 ## License
