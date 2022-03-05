@@ -17,7 +17,7 @@ Bu projede ülkelerin COVID-19 hastalığı ile ilgili istatiksel veriler bulunm
 
 ## Clean Simple Architecture
 <p><img align="left" width="244px"; src="https://raw.githubusercontent.com/busealkan/Covid19TrackingApp/main/screens/mvvm.png"/></p>
-<br/><br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/><br/>            
+<br/><br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
 
 ## Libraries and Tools 
 <li>Dagger Hilt</li>
