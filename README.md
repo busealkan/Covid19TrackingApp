@@ -4,10 +4,10 @@
 
 ## Outputs
 <p>
-  <img height="400" width="230" src="https://raw.githubusercontent.com/busealkan/Covid19TrackingApp/main/screens/1.png" alt="SS1"/>
-  <img height="400" width="230" src="https://raw.githubusercontent.com/busealkan/Covid19TrackingApp/main/screens/3.png" alt="SS1"/>
-  <img height="400" width="230" src="https://raw.githubusercontent.com/busealkan/Covid19TrackingApp/main/screens/5.png" alt="SS1"/>
-  <img height="400" width="230" src="https://raw.githubusercontent.com/busealkan/Covid19TrackingApp/main/screens/6.png" alt="SS1"/>
+  <img height="400" width="220" src="https://raw.githubusercontent.com/busealkan/Covid19TrackingApp/main/screens/1.png" alt="SS1"/>
+  <img height="400" width="220" src="https://raw.githubusercontent.com/busealkan/Covid19TrackingApp/main/screens/3.png" alt="SS2"/>
+  <img height="400" width="220" src="https://raw.githubusercontent.com/busealkan/Covid19TrackingApp/main/screens/5.png" alt="SS3"/>
+  <img height="400" width="220" src="https://raw.githubusercontent.com/busealkan/Covid19TrackingApp/main/screens/6.png" alt="SS4"/>
 
 </p>
 
