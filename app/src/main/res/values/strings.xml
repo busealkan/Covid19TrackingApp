@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Covid 19 Tracking</string>
+
+    <string name="alertTitle">No Internet Connection</string>
+    <string name="alertMessage">Connect to the internet to use the application.</string>
+    <string name="alertNegativeButton">Close</string>
+    <string name="alertPositiveButton">Open Internet</string>
+
+    <string name="alertExitTitle">Sign out?</string>
+    <string name="alertExitMessage">Exit Application?</string>
+    <string name="alertExitNegativeButton">Exit</string>
+    <string name="alertExitPositiveButton">Cancel</string>
+
+    <string name="search">Search</string>
+    <string name="share">Share</string>
+
+
+    <string name="countryName">Türkiye</string>
+    <string name="numberOfTestsTitle">Number Of Tests:</string>
+    <string name="numberOfCasesTitle">Number Of Cases:</string>
+    <string name="numberOfDeathsTitle">Number Of Deaths:</string>
+
+    <string name="numberOfTests">403.117</string>
+    <string name="numberOfCases">59.585</string>
+    <string name="numberOfDeaths">203</string>
+
+    <string name="todayTest">Today Tests:</string>
+    <string name="todayCases">Today Cases:</string>
+    <string name="todayDeath">Today Death:</string>
+    <string name="totalTest">Total Test:</string>
+    <string name="totalCases">Total Cases:</string>
+    <string name="totalDeaths">Total Deaths:</string>
+    <string name="totalRecovered">Total Recovered:</string>
+    <string name="critical">Critical:</string>
+    <string name="history">Go To History</string>
+    <string name="selectDate">Select Date</string>
+    <string name="result">50</string>
+    <string name="dateTools">2022-03-04</string>
+
+    <string name="historyLabel">History</string>
+    <string name="detailLabel">Detail</string>
+
+    <string name="shareUsing">Share Using</string>
+    <string name="statistics"> Statistics</string>
+    <string name="date"> Date: </string>
+
+
+
+
+
+</resources>

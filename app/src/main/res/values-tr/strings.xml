@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Covid 19 Takip</string>
+
+    <string name="alertTitle">İnternet Bağlantısı Yok</string>
+    <string name="alertMessage">Uygulamayı kullanmak için internete bağlanın.</string>
+    <string name="alertNegativeButton">Kapat</string>
+    <string name="alertPositiveButton">İnterneti Aç</string>
+
+    <string name="alertExitTitle">Çıkış Yap?</string>
+    <string name="alertExitMessage">Uygulamadan Çıkış Yapılsın Mı?</string>
+    <string name="alertExitNegativeButton">Çıkış</string>
+    <string name="alertExitPositiveButton">İptal</string>
+
+    <string name="search">Ara</string>
+    <string name="share">Paylaş</string>
+
+
+    <string name="countryName">Türkiye</string>
+    <string name="numberOfTestsTitle">Test Sayısı:</string>
+    <string name="numberOfCasesTitle">Vaka Sayısı:</string>
+    <string name="numberOfDeathsTitle">Ölüm Sayısı:</string>
+
+    <string name="numberOfTests">403.117</string>
+    <string name="numberOfCases">59.585</string>
+    <string name="numberOfDeaths">203</string>
+
+    <string name="todayTest">Günlük Test: </string>
+    <string name="todayCases">Günlük Vaka: </string>
+    <string name="todayDeath">Günlük Ölüm: </string>
+    <string name="totalTest">Toplam Test: </string>
+    <string name="totalCases">Toplam Vaka: </string>
+    <string name="totalDeaths">Toplam Ölüm: </string>
+    <string name="totalRecovered">Toplam İyileşen: </string>
+    <string name="critical">Kritik: </string>
+    <string name="history">Geçmişe Git</string>
+    <string name="selectDate">Tarih Seçiniz</string>
+    <string name="result">50</string>
+    <string name="dateTools">2022-03-04</string>
+
+    <string name="historyLabel">Geçmiş</string>
+    <string name="detailLabel">Detay</string>
+
+    <string name="shareUsing">Kullanarak Paylaş</string>
+    <string name="statistics"> İstatistik</string>
+    <string name="date"> Tarih: </string>
+
+</resources>

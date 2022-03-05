@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    tools:context=".ui.statistics.detail.DetailActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/scrool"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/countryRcvMarginLeft">
+
+
+                <TextView
+                    android:id="@+id/txtCountryName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/countryNameMarginLeft"
+                    android:layout_marginTop="@dimen/countryNameMarginTop"
+                    android:gravity="left"
+                    android:textColor="@color/countryColor"
+                    android:textSize="@dimen/textSize"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:text="@string/countryName" />
+
+                <ImageView
+                    android:id="@+id/imgTodayCases"
+                    android:layout_width="@dimen/statisticsImg"
+                    android:layout_height="@dimen/statisticsImg"
+                    android:layout_marginLeft="@dimen/countryNameMarginLeft"
+                    android:layout_marginTop="@dimen/statisticsImgMTop32"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtCountryName"
+                    app:srcCompat="@drawable/cases" />
+
+                <ImageView
+                    android:id="@+id/imgTodayDeath"
+                    android:layout_width="@dimen/statisticsImg"
+                    android:layout_height="@dimen/statisticsImg"
+                    android:layout_marginLeft="@dimen/countryNameMarginLeft"
+                    android:layout_marginTop="@dimen/statisticsImgMTop"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgTodayCases"
+                    app:srcCompat="@drawable/death" />
+
+                <ImageView
+                    android:id="@+id/imgCritical"
+                    android:layout_width="@dimen/statisticsImg"
+                    android:layout_height="@dimen/statisticsImg"
+                    android:layout_marginLeft="@dimen/countryNameMarginLeft"
+                    android:layout_marginTop="@dimen/statisticsImgMTop"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgTodayDeath"
+                    app:srcCompat="@drawable/critical" />
+
+                <ImageView
+                    android:id="@+id/imgTotalTest"
+                    android:layout_width="@dimen/statisticsImg"
+                    android:layout_height="@dimen/statisticsImg"
+                    android:layout_marginLeft="@dimen/countryNameMarginLeft"
+                    android:layout_marginTop="@dimen/statisticsImgMTop"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgCritical"
+                    app:srcCompat="@drawable/test" />
+
+                <ImageView
+                    android:id="@+id/imgTotalCases"
+                    android:layout_width="@dimen/statisticsImg"
+                    android:layout_height="@dimen/statisticsImg"
+                    android:layout_marginLeft="@dimen/countryNameMarginLeft"
+                    android:layout_marginTop="@dimen/statisticsImgMTop"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgTotalTest"
+                    app:srcCompat="@drawable/totalcases" />
+
+                <ImageView
+                    android:id="@+id/imgTotalDeath"
+                    android:layout_width="@dimen/statisticsImg"
+                    android:layout_height="@dimen/statisticsImg"
+                    android:layout_marginLeft="@dimen/countryNameMarginLeft"
+                    android:layout_marginTop="@dimen/statisticsImgMTop"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgTotalCases"
+                    app:srcCompat="@drawable/totaldeath" />
+
+                <ImageView
+                    android:id="@+id/imgTotalRecovered"
+                    android:layout_width="@dimen/statisticsImg"
+                    android:layout_height="@dimen/statisticsImg"
+                    android:layout_marginLeft="@dimen/countryNameMarginLeft"
+                    android:layout_marginTop="@dimen/statisticsImgMTop"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgTotalDeath"
+                    app:srcCompat="@drawable/liferecovered" />
+
+                <TextView
+                    android:id="@+id/txtTodayCasesTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/statisticsTitleMarginLeft"
+                    android:text="@string/todayCases"
+                    android:textSize="@dimen/textSmallSize"
+                    app:layout_constraintBottom_toBottomOf="@+id/imgTodayCases"
+                    app:layout_constraintStart_toEndOf="@+id/imgTodayCases"
+                    app:layout_constraintTop_toTopOf="@+id/imgTodayCases" />
+
+                <TextView
+                    android:id="@+id/txtTodayDeathTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/statisticsTitleMarginLeft"
+                    android:text="@string/todayDeath"
+                    android:textSize="@dimen/textSmallSize"
+                    app:layout_constraintBottom_toBottomOf="@+id/imgTodayDeath"
+                    app:layout_constraintStart_toEndOf="@+id/imgTodayDeath"
+                    app:layout_constraintTop_toTopOf="@+id/imgTodayDeath" />
+
+                <TextView
+                    android:id="@+id/txtCriticalTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/statisticsTitleMarginLeft"
+                    android:text="@string/critical"
+                    android:textSize="@dimen/textSmallSize"
+                    app:layout_constraintBottom_toBottomOf="@+id/imgCritical"
+                    app:layout_constraintStart_toEndOf="@+id/imgCritical"
+                    app:layout_constraintTop_toTopOf="@+id/imgCritical" />
+
+                <TextView
+                    android:id="@+id/txtTotalTestTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/statisticsTitleMarginLeft"
+                    android:text="@string/totalTest"
+                    android:textSize="@dimen/textSmallSize"
+                    app:layout_constraintBottom_toBottomOf="@+id/imgTotalTest"
+                    app:layout_constraintStart_toEndOf="@+id/imgTotalTest"
+                    app:layout_constraintTop_toTopOf="@+id/imgTotalTest" />
+
+                <TextView
+                    android:id="@+id/txtTotalCasesTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/statisticsTitleMarginLeft"
+                    android:text="@string/totalCases"
+                    android:textSize="@dimen/textSmallSize"
+                    app:layout_constraintBottom_toBottomOf="@+id/imgTotalCases"
+                    app:layout_constraintStart_toEndOf="@+id/imgTotalCases"
+                    app:layout_constraintTop_toTopOf="@+id/imgTotalCases" />
+
+                <TextView
+                    android:id="@+id/txtTotalDeathsTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/statisticsTitleMarginLeft"
+                    android:text="@string/totalDeaths"
+                    android:textSize="@dimen/textSmallSize"
+                    app:layout_constraintBottom_toBottomOf="@+id/imgTotalDeath"
+                    app:layout_constraintStart_toEndOf="@+id/imgTotalDeath"
+                    app:layout_constraintTop_toTopOf="@+id/imgTotalDeath" />
+
+                <TextView
+                    android:id="@+id/txtTotalRecoveredTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/statisticsTitleMarginLeft"
+                    android:text="@string/totalRecovered"
+                    android:textSize="@dimen/textSmallSize"
+                    app:layout_constraintBottom_toBottomOf="@+id/imgTotalRecovered"
+                    app:layout_constraintStart_toEndOf="@+id/imgTotalRecovered"
+                    app:layout_constraintTop_toTopOf="@+id/imgTotalRecovered" />
+
+                <TextView
+                    android:id="@+id/txtTodayCasesValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/statisticsValueMarginLeft"
+                    android:textSize="@dimen/textSmallSize"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/txtTodayCasesTitle"
+                    app:layout_constraintStart_toEndOf="@+id/txtTodayCasesTitle"
+                    app:layout_constraintTop_toTopOf="@+id/txtTodayCasesTitle"
+                    tools:text="@string/numberOfCases" />
+
+                <TextView
+                    android:id="@+id/txtTodayDeathValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/statisticsValueMarginLeft"
+                    android:textSize="@dimen/textSmallSize"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/txtTodayDeathTitle"
+                    app:layout_constraintStart_toEndOf="@+id/txtTodayDeathTitle"
+                    app:layout_constraintTop_toTopOf="@+id/txtTodayDeathTitle"
+                    tools:text="@string/numberOfCases" />
+
+                <TextView
+                    android:id="@+id/txtCriticalValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/statisticsValueMarginLeft"
+                    android:textSize="@dimen/textSmallSize"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/txtCriticalTitle"
+                    app:layout_constraintStart_toEndOf="@+id/txtCriticalTitle"
+                    app:layout_constraintTop_toTopOf="@+id/txtCriticalTitle"
+                    tools:text="@string/numberOfCases" />
+
+                <TextView
+                    android:id="@+id/txtTotalTestValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/statisticsValueMarginLeft"
+                    android:textSize="@dimen/textSmallSize"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/txtTotalTestTitle"
+                    app:layout_constraintStart_toEndOf="@+id/txtTotalTestTitle"
+                    app:layout_constraintTop_toTopOf="@+id/txtTotalTestTitle"
+                    tools:text="@string/numberOfCases" />
+
+                <TextView
+                    android:id="@+id/txtTotalCasesValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/statisticsValueMarginLeft"
+                    android:textSize="@dimen/textSmallSize"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/txtTotalCasesTitle"
+                    app:layout_constraintStart_toEndOf="@+id/txtTotalCasesTitle"
+                    app:layout_constraintTop_toTopOf="@+id/txtTotalCasesTitle"
+                    tools:text="@string/numberOfCases" />
+
+                <TextView
+                    android:id="@+id/txtTotalDeathsValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/statisticsValueMarginLeft"
+                    android:layout_marginTop="@dimen/statisticsTitleMarginTop"
+                    android:textSize="@dimen/textSmallSize"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/txtTotalDeathsTitle"
+                    app:layout_constraintStart_toEndOf="@+id/txtTotalDeathsTitle"
+                    app:layout_constraintTop_toTopOf="@+id/imgTotalDeath"
+                    tools:text="@string/numberOfCases" />
+
+                <TextView
+                    android:id="@+id/txtTotalRecoveredValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/statisticsValueMarginLeft"
+                    android:layout_marginTop="@dimen/statisticsTitleMarginTop"
+                    android:textSize="@dimen/textSmallSize"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/txtTotalRecoveredTitle"
+                    app:layout_constraintStart_toEndOf="@+id/txtTotalRecoveredTitle"
+                    app:layout_constraintTop_toTopOf="@+id/imgTotalRecovered"
+                    tools:text="@string/numberOfCases" />
+
+                <Button
+                    android:id="@+id/btnHistory"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/btnHistoryMTop"
+                    android:text="@string/history"
+                    android:textSize="@dimen/textXSmallSize"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtTotalRecoveredTitle" />
+
+                <TextView
+                    android:id="@+id/txtDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/cardDateMLeft"
+                    android:layout_marginTop="@dimen/dateMTop"
+                    tools:text="@string/dateTools"
+                    android:textColor="@color/dateColor"
+                    android:textSize="@dimen/cardTextSize20"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/txtCountryName"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/txtCountryName" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

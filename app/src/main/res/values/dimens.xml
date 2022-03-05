@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardMargin">5dp</dimen>
+    <dimen name="cardPadding">5dp</dimen>
+
+    <dimen name="countryCardViewImageMargin">15dp</dimen>
+    <dimen name="countryCardViewImageHeight">180dp</dimen>
+    <dimen name="countryCardViewImageWidth">120dp</dimen>
+    <dimen name="countryCardViewTextMargin">8dp</dimen>
+
+    <dimen name="countryNameMarginTop">18dp</dimen>
+    <dimen name="countryTitleTextsMarginLeft">20dp</dimen>
+    <dimen name="countryTextsMarginLeft">5dp</dimen>
+    <dimen name="countryTextsMarginTop">10dp</dimen>
+
+
+    <dimen name="countryRcvWidth">40dp</dimen>
+    <dimen name="countryRcvMarginTop">20dp</dimen>
+    <dimen name="countryRcvMarginLeft">5dp</dimen>
+    <dimen name="countryRcvMarginRight">15dp</dimen>
+
+    <dimen name="logoSize">300dp</dimen>
+    <dimen name="textSize">25sp</dimen>
+    <dimen name="textXSmallSize">15sp</dimen>
+    <dimen name="textSmallSize">20sp</dimen>
+    <dimen name="textMediumSize">30sp</dimen>
+    <dimen name="textBigSize">40sp</dimen>
+
+    <dimen name="countryNameMarginLeft">18dp</dimen>
+
+    <dimen name="statisticsImgMTop">19dp</dimen>
+    <dimen name="statisticsImgMTop32">32dp</dimen>
+
+    <dimen name="statisticsTitleMarginTop">15dp</dimen>
+    <dimen name="statisticsTitleMarginLeft">25dp</dimen>
+    <dimen name="statisticsValueMarginLeft">8dp</dimen>
+    <dimen name="criticalImgW">66dp</dimen>
+
+    <dimen name="btnPadding">66dp</dimen>
+    <dimen name="datePicker">150dp</dimen>
+    <dimen name="dateMTop">52dp</dimen>
+    <dimen name="btnHistoryMTop">16dp</dimen>
+
+    <dimen name="cornerRadius">5dp</dimen>
+    <dimen name="cardImageSize">32dp</dimen>
+    <dimen name="cardTextMTop">10dp</dimen>
+    <dimen name="cardTextMTop2">2dp</dimen>
+    <dimen name="cardTextMTop20">20dp</dimen>
+    <dimen name="cardTextSize20">20sp</dimen>
+    <dimen name="cardTextSize12">12sp</dimen>
+    <dimen name="cardTextSize14">14sp</dimen>
+    <dimen name="cardDateMLeft">8dp</dimen>
+
+    <dimen name="statisticsImg">50dp</dimen>
+
+
+</resources>
