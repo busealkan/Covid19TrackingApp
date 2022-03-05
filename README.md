@@ -11,7 +11,7 @@ Bu projede ülkelerin COVID-19 hastalığı ile ilgili istatiksel veriler bulunm
 ## Architecture
 <p>The app uses MVVM [Model-View-ViewModel] architecture to have a unidirectional flow of data, separation of concern, testability, and a lot more.</p>
 <p>
-  <img height="400" width="250" src="https://raw.githubusercontent.com/busealkan/Covid19TrackingApp/main/screens/architecture.png" alt="SS1"/>
+  <img src="https://raw.githubusercontent.com/busealkan/Covid19TrackingApp/main/screens/architecture.png" alt="Architecture" style="max-width: 100%;">
 </p>
 
 
